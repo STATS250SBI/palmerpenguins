@@ -5,6 +5,9 @@
 
 <!-- badges: start -->
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3960218.svg)](https://doi.org/10.5281/zenodo.3960218)
+[![CRAN](https://www.r-pkg.org/badges/version/palmerpenguins)](https://cran.r-project.org/package=palmerpenguins)
+
 <!-- badges: end -->
 
 The goal of palmerpenguins is to provide a great dataset for data
@@ -14,15 +17,15 @@ exploration & visualization, as an alternative to `iris`.
 
 ## Installation
 
-<!--You can install the released version of palmerpenguins from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of palmerpenguins from
+[CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("palmerpenguins")
 ```
--->
 
-You can install the development version from
-[GitHub](https://github.com/) with:
+To install the development version from [GitHub](https://github.com/)
+use:
 
 ``` r
 # install.packages("remotes")
@@ -98,7 +101,7 @@ str(penguins)
 #>  $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...
 ```
 
-**Thank you** to Dr. Gorman, Palmer Station LTER and the LTER Network\!
+We gratefully acknowledge Palmer Station LTER and the US LTER Network.
 Special thanks to Marty Downs (Director, LTER Network Office) for help
 regarding the data license & use.
 
@@ -176,7 +179,8 @@ citation("palmerpenguins")
 #> 
 #>   Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer
 #>   Archipelago (Antarctica) penguin data. R package version 0.1.0.
-#>   https://allisonhorst.github.io/palmerpenguins/
+#>   https://allisonhorst.github.io/palmerpenguins/. doi:
+#>   10.5281/zenodo.3960218.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
@@ -185,6 +189,7 @@ citation("palmerpenguins")
 #>     author = {Allison Marie Horst and Alison Presmanes Hill and Kristen B Gorman},
 #>     year = {2020},
 #>     note = {R package version 0.1.0},
+#>     doi = {10.5281/zenodo.3960218},
 #>     url = {https://allisonhorst.github.io/palmerpenguins/},
 #>   }
 ```

@@ -22,6 +22,10 @@ library(palmerpenguins)
 # palmerpenguins <a href='https://allisonhorst.github.io/palmerpenguins'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
 
 <!-- badges: start -->
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3960218.svg)](https://doi.org/10.5281/zenodo.3960218)
+[![CRAN](https://www.r-pkg.org/badges/version/palmerpenguins)](https://cran.r-project.org/package=palmerpenguins)
+
 <!-- badges: end -->
 
 The goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to `iris`. 
@@ -56,14 +60,13 @@ flipper_bill
 
 ## Installation
 
-<!--You can install the released version of palmerpenguins from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of palmerpenguins from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("palmerpenguins")
 ```
--->
 
-You can install the development version from [GitHub](https://github.com/) with:
+To install the development version from [GitHub](https://github.com/) use:
 
 ``` r
 # install.packages("remotes")
@@ -101,7 +104,7 @@ str(penguins)
 ```
 
 
-**Thank you** to Dr. Gorman, Palmer Station LTER and the LTER Network! Special thanks to Marty Downs (Director, LTER Network Office) for help regarding the data license & use.
+We gratefully acknowledge Palmer Station LTER and the US LTER Network. Special thanks to Marty Downs (Director, LTER Network Office) for help regarding the data license & use. 
 
 
 ## Examples
